@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4EF539723FABB6A00FB7781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF539623FABB6A00FB7781 /* AppDelegate.swift */; };
+		E4EF539923FABB6A00FB7781 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF539823FABB6A00FB7781 /* SceneDelegate.swift */; };
+		E4EF539B23FABB6A00FB7781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF539A23FABB6A00FB7781 /* ViewController.swift */; };
+		E4EF539E23FABB6A00FB7781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EF539C23FABB6A00FB7781 /* Main.storyboard */; };
+		E4EF53A123FABB6A00FB7781 /* Jorinapeka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4EF539F23FABB6A00FB7781 /* Jorinapeka.xcdatamodeld */; };
+		E4EF53A323FABB6C00FB7781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EF53A223FABB6C00FB7781 /* Assets.xcassets */; };
+		E4EF53A623FABB6C00FB7781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EF53A423FABB6C00FB7781 /* LaunchScreen.storyboard */; };
+		E4EF53B123FABB6C00FB7781 /* JorinapekaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF53B023FABB6C00FB7781 /* JorinapekaTests.swift */; };
+		E4EF53BC23FABB6C00FB7781 /* JorinapekaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF53BB23FABB6C00FB7781 /* JorinapekaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4EF53AD23FABB6C00FB7781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EF538B23FABB6A00FB7781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EF539223FABB6A00FB7781;
+			remoteInfo = Jorinapeka;
+		};
+		E4EF53B823FABB6C00FB7781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EF538B23FABB6A00FB7781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EF539223FABB6A00FB7781;
+			remoteInfo = Jorinapeka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4EF539323FABB6A00FB7781 /* Jorinapeka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jorinapeka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EF539623FABB6A00FB7781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4EF539823FABB6A00FB7781 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4EF539A23FABB6A00FB7781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4EF539D23FABB6A00FB7781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4EF53A023FABB6A00FB7781 /* Jorinapeka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jorinapeka.xcdatamodel; sourceTree = "<group>"; };
+		E4EF53A223FABB6C00FB7781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4EF53A523FABB6C00FB7781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4EF53A723FABB6C00FB7781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EF53AC23FABB6C00FB7781 /* JorinapekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JorinapekaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EF53B023FABB6C00FB7781 /* JorinapekaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JorinapekaTests.swift; sourceTree = "<group>"; };
+		E4EF53B223FABB6C00FB7781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EF53B723FABB6C00FB7781 /* JorinapekaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JorinapekaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EF53BB23FABB6C00FB7781 /* JorinapekaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JorinapekaUITests.swift; sourceTree = "<group>"; };
+		E4EF53BD23FABB6C00FB7781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EF539023FABB6A00FB7781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EF53A923FABB6C00FB7781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EF53B423FABB6C00FB7781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4EF538A23FABB6A00FB7781 = {
+			isa = PBXGroup;
+			children = (
+				E4EF539523FABB6A00FB7781 /* Jorinapeka */,
+				E4EF53AF23FABB6C00FB7781 /* JorinapekaTests */,
+				E4EF53BA23FABB6C00FB7781 /* JorinapekaUITests */,
+				E4EF539423FABB6A00FB7781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EF539423FABB6A00FB7781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF539323FABB6A00FB7781 /* Jorinapeka.app */,
+				E4EF53AC23FABB6C00FB7781 /* JorinapekaTests.xctest */,
+				E4EF53B723FABB6C00FB7781 /* JorinapekaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EF539523FABB6A00FB7781 /* Jorinapeka */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF539623FABB6A00FB7781 /* AppDelegate.swift */,
+				E4EF539823FABB6A00FB7781 /* SceneDelegate.swift */,
+				E4EF539A23FABB6A00FB7781 /* ViewController.swift */,
+				E4EF539C23FABB6A00FB7781 /* Main.storyboard */,
+				E4EF53A223FABB6C00FB7781 /* Assets.xcassets */,
+				E4EF53A423FABB6C00FB7781 /* LaunchScreen.storyboard */,
+				E4EF53A723FABB6C00FB7781 /* Info.plist */,
+				E4EF539F23FABB6A00FB7781 /* Jorinapeka.xcdatamodeld */,
+			);
+			path = Jorinapeka;
+			sourceTree = "<group>";
+		};
+		E4EF53AF23FABB6C00FB7781 /* JorinapekaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF53B023FABB6C00FB7781 /* JorinapekaTests.swift */,
+				E4EF53B223FABB6C00FB7781 /* Info.plist */,
+			);
+			path = JorinapekaTests;
+			sourceTree = "<group>";
+		};
+		E4EF53BA23FABB6C00FB7781 /* JorinapekaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF53BB23FABB6C00FB7781 /* JorinapekaUITests.swift */,
+				E4EF53BD23FABB6C00FB7781 /* Info.plist */,
+			);
+			path = JorinapekaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EF539223FABB6A00FB7781 /* Jorinapeka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EF53C023FABB6C00FB7781 /* Build configuration list for PBXNativeTarget "Jorinapeka" */;
+			buildPhases = (
+				E4EF538F23FABB6A00FB7781 /* Sources */,
+				E4EF539023FABB6A00FB7781 /* Frameworks */,
+				E4EF539123FABB6A00FB7781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jorinapeka;
+			productName = Jorinapeka;
+			productReference = E4EF539323FABB6A00FB7781 /* Jorinapeka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EF53AB23FABB6C00FB7781 /* JorinapekaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EF53C323FABB6C00FB7781 /* Build configuration list for PBXNativeTarget "JorinapekaTests" */;
+			buildPhases = (
+				E4EF53A823FABB6C00FB7781 /* Sources */,
+				E4EF53A923FABB6C00FB7781 /* Frameworks */,
+				E4EF53AA23FABB6C00FB7781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EF53AE23FABB6C00FB7781 /* PBXTargetDependency */,
+			);
+			name = JorinapekaTests;
+			productName = JorinapekaTests;
+			productReference = E4EF53AC23FABB6C00FB7781 /* JorinapekaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4EF53B623FABB6C00FB7781 /* JorinapekaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EF53C623FABB6C00FB7781 /* Build configuration list for PBXNativeTarget "JorinapekaUITests" */;
+			buildPhases = (
+				E4EF53B323FABB6C00FB7781 /* Sources */,
+				E4EF53B423FABB6C00FB7781 /* Frameworks */,
+				E4EF53B523FABB6C00FB7781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EF53B923FABB6C00FB7781 /* PBXTargetDependency */,
+			);
+			name = JorinapekaUITests;
+			productName = JorinapekaUITests;
+			productReference = E4EF53B723FABB6C00FB7781 /* JorinapekaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EF538B23FABB6A00FB7781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jakub Zagórowicz";
+				TargetAttributes = {
+					E4EF539223FABB6A00FB7781 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E4EF53AB23FABB6C00FB7781 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E4EF539223FABB6A00FB7781;
+					};
+					E4EF53B623FABB6C00FB7781 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E4EF539223FABB6A00FB7781;
+					};
+				};
+			};
+			buildConfigurationList = E4EF538E23FABB6A00FB7781 /* Build configuration list for PBXProject "Jorinapeka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4EF538A23FABB6A00FB7781;
+			productRefGroup = E4EF539423FABB6A00FB7781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EF539223FABB6A00FB7781 /* Jorinapeka */,
+				E4EF53AB23FABB6C00FB7781 /* JorinapekaTests */,
+				E4EF53B623FABB6C00FB7781 /* JorinapekaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EF539123FABB6A00FB7781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EF53A623FABB6C00FB7781 /* LaunchScreen.storyboard in Resources */,
+				E4EF53A323FABB6C00FB7781 /* Assets.xcassets in Resources */,
+				E4EF539E23FABB6A00FB7781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EF53AA23FABB6C00FB7781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EF53B523FABB6C00FB7781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EF538F23FABB6A00FB7781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EF539B23FABB6A00FB7781 /* ViewController.swift in Sources */,
+				E4EF539723FABB6A00FB7781 /* AppDelegate.swift in Sources */,
+				E4EF539923FABB6A00FB7781 /* SceneDelegate.swift in Sources */,
+				E4EF53A123FABB6A00FB7781 /* Jorinapeka.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EF53A823FABB6C00FB7781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EF53B123FABB6C00FB7781 /* JorinapekaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EF53B323FABB6C00FB7781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EF53BC23FABB6C00FB7781 /* JorinapekaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EF53AE23FABB6C00FB7781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EF539223FABB6A00FB7781 /* Jorinapeka */;
+			targetProxy = E4EF53AD23FABB6C00FB7781 /* PBXContainerItemProxy */;
+		};
+		E4EF53B923FABB6C00FB7781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EF539223FABB6A00FB7781 /* Jorinapeka */;
+			targetProxy = E4EF53B823FABB6C00FB7781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4EF539C23FABB6A00FB7781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EF539D23FABB6A00FB7781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4EF53A423FABB6C00FB7781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EF53A523FABB6C00FB7781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EF53BE23FABB6C00FB7781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4EF53BF23FABB6C00FB7781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EF53C123FABB6C00FB7781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jorinapeka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jzagorowicz.Jorinapeka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4EF53C223FABB6C00FB7781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jorinapeka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jzagorowicz.Jorinapeka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4EF53C423FABB6C00FB7781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JorinapekaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jzagorowicz.JorinapekaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jorinapeka.app/Jorinapeka";
+			};
+			name = Debug;
+		};
+		E4EF53C523FABB6C00FB7781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JorinapekaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jzagorowicz.JorinapekaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jorinapeka.app/Jorinapeka";
+			};
+			name = Release;
+		};
+		E4EF53C723FABB6C00FB7781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JorinapekaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jzagorowicz.JorinapekaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jorinapeka;
+			};
+			name = Debug;
+		};
+		E4EF53C823FABB6C00FB7781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JorinapekaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jzagorowicz.JorinapekaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jorinapeka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EF538E23FABB6A00FB7781 /* Build configuration list for PBXProject "Jorinapeka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EF53BE23FABB6C00FB7781 /* Debug */,
+				E4EF53BF23FABB6C00FB7781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EF53C023FABB6C00FB7781 /* Build configuration list for PBXNativeTarget "Jorinapeka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EF53C123FABB6C00FB7781 /* Debug */,
+				E4EF53C223FABB6C00FB7781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EF53C323FABB6C00FB7781 /* Build configuration list for PBXNativeTarget "JorinapekaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EF53C423FABB6C00FB7781 /* Debug */,
+				E4EF53C523FABB6C00FB7781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EF53C623FABB6C00FB7781 /* Build configuration list for PBXNativeTarget "JorinapekaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EF53C723FABB6C00FB7781 /* Debug */,
+				E4EF53C823FABB6C00FB7781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4EF539F23FABB6A00FB7781 /* Jorinapeka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4EF53A023FABB6A00FB7781 /* Jorinapeka.xcdatamodel */,
+			);
+			currentVersion = E4EF53A023FABB6A00FB7781 /* Jorinapeka.xcdatamodel */;
+			path = Jorinapeka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4EF538B23FABB6A00FB7781 /* Project object */;
+}
