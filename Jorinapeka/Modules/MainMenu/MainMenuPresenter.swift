@@ -14,5 +14,11 @@ class MainMenuPresenter {
 }
 
 extension MainMenuPresenter: MainMenuPresenterProtocol {
+    func playButtonTapped() {
+        router?.goToGameModule()
+    }
     
+    func highScoreButtonTapped() {
+        router?.goToHighScoresModule()
+    }
 }

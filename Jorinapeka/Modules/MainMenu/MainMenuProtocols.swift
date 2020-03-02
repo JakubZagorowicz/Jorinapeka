@@ -13,5 +13,6 @@ protocol MainMenuViewControllerProtocol {
 }
 
 protocol MainMenuPresenterProtocol {
-    
+    func playButtonTapped()
+    func highScoreButtonTapped()
 }

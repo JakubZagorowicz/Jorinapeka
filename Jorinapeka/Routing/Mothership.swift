@@ -13,5 +13,11 @@ class Mothership {
 }
 
 extension Mothership: MainMenuRouterProtocol {
+    func goToGameModule() {
+        
+    }
     
+    func goToHighScoresModule() {
+        
+    }
 }

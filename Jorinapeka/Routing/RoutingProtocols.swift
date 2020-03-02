@@ -9,5 +9,6 @@
 import Foundation
 
 protocol MainMenuRouterProtocol {
-    
+    func goToGameModule()
+    func goToHighScoresModule()
 }
