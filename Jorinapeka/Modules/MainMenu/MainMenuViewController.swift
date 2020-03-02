@@ -41,11 +41,11 @@ class MainMenuViewController: UIViewController {
     }
     
     @objc func playButtonTapped() {
-        
+        presenter?.playButtonTapped()
     }
     
     @objc func highScoreButtonTapped() {
-        
+        presenter?.highScoreButtonTapped()
     }
 }
 
