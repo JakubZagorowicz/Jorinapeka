@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let mainMenuVC = Builder.buildMainMenu(router: mothership)
         
         let navigator = UINavigationController(rootViewController: mainMenuVC)
+        navigator.isNavigationBarHidden = true
         
         window?.rootViewController = navigator
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
