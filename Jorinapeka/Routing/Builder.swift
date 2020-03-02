@@ -9,7 +9,6 @@
 import Foundation
 
 class Builder {
-    
     static func buildMainMenu(router: MainMenuRouterProtocol) -> MainMenuViewController {
         let viewController = MainMenuViewController()
         let presenter = MainMenuPresenter()

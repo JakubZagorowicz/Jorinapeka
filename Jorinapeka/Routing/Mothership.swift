@@ -6,10 +6,16 @@
 //  Copyright © 2020 Jakub Zagórowicz. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Mothership {
+    var navigator: UINavigationController
     
+    init() {
+        navigator = UINavigationController()
+        navigator = UINavigationController(rootViewController: Builder.buildMainMenu(router: self))
+        navigator.isNavigationBarHidden = true
+    }
 }
 
 extension Mothership: MainMenuRouterProtocol {
