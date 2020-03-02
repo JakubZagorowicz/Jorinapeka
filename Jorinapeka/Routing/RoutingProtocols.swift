@@ -12,3 +12,7 @@ protocol MainMenuRouterProtocol {
     func goToGameModule()
     func goToHighScoresModule()
 }
+
+protocol GameRouterProtocol {
+    func goBack()
+}

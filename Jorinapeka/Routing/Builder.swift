@@ -20,4 +20,16 @@ class Builder {
         
         return viewController
     }
+    
+    static func buildGameModule(router: GameRouterProtocol) -> GameViewController {
+        let viewController = GameViewController()
+        let presenter = GamePresenter()
+        
+        presenter.view = viewController
+        presenter.router = router
+        
+        viewController.presenter = presenter
+        
+        return viewController
+    }
 }
