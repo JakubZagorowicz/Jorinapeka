@@ -13,7 +13,8 @@ class Mothership {
     
     init() {
         navigator = UINavigationController()
-        navigator = UINavigationController(rootViewController: Builder.buildMainMenu(router: self))
+        let rootVC = Builder.buildMainMenu(router: self)
+        navigator = UINavigationController(rootViewController: rootVC)
         navigator.isNavigationBarHidden = true
     }
 }
