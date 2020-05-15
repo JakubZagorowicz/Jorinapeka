@@ -11,6 +11,11 @@
 		E4954E67240D6B49004A4B51 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E66240D6B49004A4B51 /* GameViewController.swift */; };
 		E4954E69240D6F82004A4B51 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E68240D6F82004A4B51 /* GamePresenter.swift */; };
 		E4954E6B240D6FA0004A4B51 /* GameProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E6A240D6FA0004A4B51 /* GameProtocols.swift */; };
+		E4954E6E240D78A5004A4B51 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E6D240D78A5004A4B51 /* Game.swift */; };
+		E4954E70240D78BD004A4B51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E6F240D78BD004A4B51 /* Board.swift */; };
+		E4954E72240D7903004A4B51 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E71240D7903004A4B51 /* Token.swift */; };
+		E4954E74240D7945004A4B51 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E73240D7945004A4B51 /* Direction.swift */; };
+		E4954E76240D89A9004A4B51 /* MoveResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4954E75240D89A9004A4B51 /* MoveResult.swift */; };
 		E4EF539723FABB6A00FB7781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF539623FABB6A00FB7781 /* AppDelegate.swift */; };
 		E4EF539923FABB6A00FB7781 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF539823FABB6A00FB7781 /* SceneDelegate.swift */; };
 		E4EF539E23FABB6A00FB7781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EF539C23FABB6A00FB7781 /* Main.storyboard */; };
@@ -61,6 +66,11 @@
 		E4954E66240D6B49004A4B51 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E4954E68240D6F82004A4B51 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
 		E4954E6A240D6FA0004A4B51 /* GameProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocols.swift; sourceTree = "<group>"; };
+		E4954E6D240D78A5004A4B51 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E4954E6F240D78BD004A4B51 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		E4954E71240D7903004A4B51 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E4954E73240D7945004A4B51 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		E4954E75240D89A9004A4B51 /* MoveResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveResult.swift; sourceTree = "<group>"; };
 		E4EF539323FABB6A00FB7781 /* Jorinapeka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jorinapeka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF539623FABB6A00FB7781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4EF539823FABB6A00FB7781 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +128,18 @@
 			path = Game;
 			sourceTree = "<group>";
 		};
+		E4954E6C240D7892004A4B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4954E6D240D78A5004A4B51 /* Game.swift */,
+				E4954E6F240D78BD004A4B51 /* Board.swift */,
+				E4954E71240D7903004A4B51 /* Token.swift */,
+				E4954E73240D7945004A4B51 /* Direction.swift */,
+				E4954E75240D89A9004A4B51 /* MoveResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E4EF538A23FABB6A00FB7781 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +163,7 @@
 		E4EF539523FABB6A00FB7781 /* Jorinapeka */ = {
 			isa = PBXGroup;
 			children = (
+				E4954E6C240D7892004A4B51 /* Model */,
 				E4EF53D223FAC9F300FB7781 /* Modules */,
 				E4EF53C923FAC93900FB7781 /* Routing */,
 				E4EF539623FABB6A00FB7781 /* AppDelegate.swift */,
@@ -336,13 +359,18 @@
 				E4954E67240D6B49004A4B51 /* GameViewController.swift in Sources */,
 				E4954E6B240D6FA0004A4B51 /* GameProtocols.swift in Sources */,
 				E4954E69240D6F82004A4B51 /* GamePresenter.swift in Sources */,
+				E4954E6E240D78A5004A4B51 /* Game.swift in Sources */,
+				E4954E70240D78BD004A4B51 /* Board.swift in Sources */,
 				E4EF53E123FACC0700FB7781 /* MainMenuProtocols.swift in Sources */,
+				E4954E72240D7903004A4B51 /* Token.swift in Sources */,
 				E4EF539723FABB6A00FB7781 /* AppDelegate.swift in Sources */,
 				E4EF539923FABB6A00FB7781 /* SceneDelegate.swift in Sources */,
 				E4EF53DD23FACB4500FB7781 /* RoutingProtocols.swift in Sources */,
 				E4EF53A123FABB6A00FB7781 /* Jorinapeka.xcdatamodeld in Sources */,
+				E4954E74240D7945004A4B51 /* Direction.swift in Sources */,
 				E4EF53D923FACADB00FB7781 /* MainMenuPresenter.swift in Sources */,
 				E4EF53D523FACA5D00FB7781 /* MainMenuViewController.swift in Sources */,
+				E4954E76240D89A9004A4B51 /* MoveResult.swift in Sources */,
 				E4EF53CB23FAC98500FB7781 /* Mothership.swift in Sources */,
 				E4EF53CF23FAC9A100FB7781 /* Builder.swift in Sources */,
 			);
